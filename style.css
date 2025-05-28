@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #111;
+}
+
+.logo {
+  max-height: 90px;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.category {
+  text-align: center;
+  width: 300px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.category img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.category span {
+  display: block;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #111;
+}
+
+.category:hover {
+  transform: scale(1.03);
+}
+
+.gallery-view {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+
+.back-button {
+  margin-top: 2rem;
+}
+
+.back-button a {
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-button a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: #111;
+  color: #777;
+}
